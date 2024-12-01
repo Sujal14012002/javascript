@@ -1,13 +1,9 @@
-var n=2;
-function square (num){
-    var ans=num*num;
-    return ans;
-    }
+getname();
+console.log(x);
 
-var square2=square(n);
-var square1=square(4);
-console.log(square2);
-console.log(square1);
+var x=7;
 
 
-
+function getname(){
+    console.log("code reveiw");
+}
