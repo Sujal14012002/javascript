@@ -1,13 +1,21 @@
-var x=7;
+var x=1;
+a();
+b();
+console.log(x);
 
-function  getname(){
-    console.log("code-execution");
+
+function a(){
+    var x=10;
+    console.log(x);
+}
+
+function b(){
+    var x=100;
+    console.log(x);
 }
 
 
-getname();
-console.log(x);
-console.log(getname());
+
 
 
 
