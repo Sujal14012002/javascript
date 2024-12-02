@@ -1,18 +1,15 @@
-//closure
+function z(){
+    var b=900;
+    function x(){
+        var a=7;
 
-
-function x(){
-    var a=7;
-    function y(){
-        console.log(a);
-        return 7;
-
-
+        function y(){
+            console.log(a,b);
+        }
+        y();
     }
-    return y;
-    
-    
+    x();
+
 }
-var z=x();
-console.log(z());
-// +
+
+z();
