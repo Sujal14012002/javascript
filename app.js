@@ -1,7 +1,18 @@
-const c=100;
+//closure
+
+
 function x(){
-    const c=30;
-    console.log(c);
+    var a=7;
+    function y(){
+        console.log(a);
+        return 7;
+
+
+    }
+    return y;
+    
+    
 }
-x();
-console.log(c);
+var z=x();
+console.log(z());
+// +
