@@ -1,8 +1,5 @@
-function a(){
-c();
-function c(){
-    console.log(b);
-}    
+if(true){
+    let a=10;
+    console.log(a);
 }
-var b=10;
-a();
+
