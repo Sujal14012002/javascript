@@ -1,5 +1,7 @@
-if(true){
-    let a=10;
-    console.log(a);
+const c=100;
+function x(){
+    const c=30;
+    console.log(c);
 }
-
+x();
+console.log(c);
