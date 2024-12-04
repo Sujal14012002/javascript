@@ -1,12 +1,7 @@
-setTimeout(() => {
-    console.log("timer")
-    
-}, 5000);
+console.log("start");
 
-function x(y){
-    console.log("x");
-}
+setTimeout((function cb(){
+    console.log("callback");
+}),5000)
 
-x(function y(){
-    console.log("y")
-});
+console.log("end");
