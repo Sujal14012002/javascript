@@ -1,7 +1,3 @@
-let a=10;
-let b=20;
-let sum=0;
-sum=a;
-a=b;
-b=sum;
-console.log(a,b);
+let a=44.2;
+let b=45.1;
+console.log(Math.trunc(a+b));
