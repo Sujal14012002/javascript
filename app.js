@@ -1,8 +1,11 @@
-function x(){
-    var i=10;
-    setTimeout(function(){
-        console.log(i);
-    },1000);
+//first class function 
+function a(){
+    console.log(" a called");
 }
 
-x();
+var b=function (param1){
+    return function xyz(){
+
+    }
+}
+console.log(b());
