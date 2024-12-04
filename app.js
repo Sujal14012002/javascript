@@ -1,11 +1,12 @@
-//first class function 
-function a(){
-    console.log(" a called");
+setTimeout(() => {
+    console.log("timer")
+    
+}, 5000);
+
+function x(y){
+    console.log("x");
 }
 
-var b=function (param1){
-    return function xyz(){
-
-    }
-}
-console.log(b());
+x(function y(){
+    console.log("y")
+});
