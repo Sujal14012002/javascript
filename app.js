@@ -1,5 +1,6 @@
-let a=1;
-while(a<100){
-    a=a+1;
-    console.log("piyush"+a)
+let ip=0;
+let house=100;
+while(!(ip>=100)){
+    ip=ip+1;
+    console.log("sujal"+ip);
 }
