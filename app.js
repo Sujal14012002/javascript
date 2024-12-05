@@ -1,8 +1,16 @@
  // logical operator
 
  //and
- const age =25;
+//  const age =25;
 
- if(age>=18 || age<=16){
-    console.log("hello");
- }
+//  if(age>=15 && age<=78  && true){
+//     console.log("hello");
+//  }
+
+//  let ismale=gender='male';
+//  console.log(ismale);
+
+const number=5;
+if(number%2!==0){
+    console.log("even");
+}
