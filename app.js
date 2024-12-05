@@ -1,14 +1,26 @@
-// const age=45;
-// if(age>=47){
-//     console.log("code")
-// }
-// else if(age>=41){
-//     console.log("java");
-// }
-// else{
-//     console.log("hello");
-// }
+const option = 8;
+switch (option) {
+  case 1:
+    console.log("hello");
+    break;
+  case 2:
+    console.log("priyam");
+    break;
+  case 3:
+    console.log("ysh");
+    break;
+  case 4:
+    console.log("kmfkm");
+    break;
 
-// ternary operator
-const age =18;
-age>18 ? console.log("adult"):console.log("teen-age");
+  case 5:
+    console.log("phbg");
+    break;
+
+  case 6:
+    console.log("on");
+    break;
+    default:
+        console.log("higher order");
+
+}
